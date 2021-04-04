@@ -1,0 +1,38 @@
+// RWD 響應式
+@mixin sm-media() {
+  @media (min-width: $SM-MEDIA) {
+    @content;
+  }
+}
+
+@mixin md-media() {
+  @media (min-width: $MD-MEDIA) {
+    @content;
+  }
+}
+
+@mixin lg-media() {
+  @media (min-width: $LG-MEDIA) {
+    @content;
+  }
+}
+
+@mixin xl-media() {
+  @media (min-width: $XL-MEDIA) {
+    @content;
+  }
+}
+
+@mixin flex($num, $basis: auto) {
+  flex-grow: $num;
+  flex-shrink: $num;
+  @if(type-of($basis) == 'number'){
+    @if(unitless($basis)){
+      flex-basis: $basis * 1px;
+    }@else{
+      flex-basis: $basis;
+    }
+  }@else {
+    flex-basis: $basis;
+  }
+}

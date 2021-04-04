@@ -1,0 +1,56 @@
+// login 頁面
+$COLOR-WHITE: #FFF;     // 白色
+$COLOR-BLACK: #000;     // 黑色
+
+$COLOR-GRAY1: #333;     // 灰色1
+$COLOR-GRAY2: #666;     // 灰色2
+$COLOR-GRAY3: #999;     // 灰色3
+$COLOR-GRAY4: #E5E5E5;  // 灰色4
+$COLOR-GRAY5: #E9E9E9;  // 灰色5
+$COLOR-GRAY6: #F5F5F5;  // 灰色6
+$COLOR-GRAY-AAA: #aaa;  // 灰色 aaa
+$COLOR-GRAY-CCC: #ccc;  // 灰色 ccc
+$COLOR-GRAY-EF: #EFEFEF;  // 灰色 efefef
+$COLOR-GRAY-DD: #DDD;  // 灰色 ddd
+$COLOR-GRAY-70: #707070;  // 灰色 707070
+
+
+$COLOR-MAIN1: #ffc107;  // 主色 黃色
+$COLOR-MAIN2: #0dcaF0;  // 主色 藍色
+$COLOR-MAIN3: #FF0000;  // 主色 紅色
+
+
+// $COLOR-MAIN3: #924A04;  // 主色 咖啡色
+$COLOR-MAIN4: #FFEED2;  // 主色 橘黃色
+$COLOR-MAIN5: #FF683D;  // 主色 亮橘色
+
+$COLOR-MAIN6: #FFEEE5;  // 主色 淡橘色
+$COLOR-MAIN7: #FE8D57;  // 主色 亮橘色2
+$COLOR-MAIN8: #FFD3C1;  // 主色 淡橘色2
+
+$COLOR-LINK: #0089D1;  // 連結色 藍色
+$COLOR-LINK-HOVER: $COLOR-MAIN2;  // 連結色 藍色
+
+$COLOR-ERROR1: #C52A1C; // error色
+
+$COLOR-LINEAR1: #FFC3AC;
+$COLOR-LINEAR2: $COLOR-MAIN6;
+
+
+
+$COLOR-BTN: $COLOR-MAIN1; // 按鈕
+$COLOR-BTN-HOVER: $COLOR-MAIN2; // 按鈕 hover
+$COLOR-TITLE: $COLOR-MAIN3; // 標題
+$COLOR-SECTION-BG: $COLOR-MAIN4; // section bg
+$COLOR-BOX-SHADOW: #884E1B33;
+$COLOR-SPECIAL: $COLOR-MAIN5;
+
+$COLOR-INPUT-BG: $COLOR-GRAY-EF;
+$COLOR-INPUT-BORDER: $COLOR-GRAY-DD;
+
+//----------------------------- RWD 斷點 -----------------------------
+$XL-MEDIA: 1200px;
+$LG-MEDIA: 992px;
+$MD-MEDIA: 768px;
+$SM-MEDIA: 576px;
+$XS-MEDIA: 375px;
