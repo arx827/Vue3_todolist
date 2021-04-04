@@ -3,8 +3,9 @@ const resolve = dir => path.join(__dirname, dir)
 const IS_PROD = ['production', 'prod'].includes(process.env.NODE_ENV)
 
 module.exports = {
-  publicPath: process.env.VUE_APP_CONTEXT_PATH,
-  outputDir: 'dist/' + process.env.MODE + process.env.VUE_APP_CONTEXT_PATH,
+  publicPath: IS_PROD ? process.env.VUE_APP_CONTEXT_PATH : '/',
+  outputDir: `dist/${process.env.VUE_APP_MODENAME}`,
+  assetsDir: 'assets',
   lintOnSave: true,
   chainWebpack: config => {
     config.resolve.alias

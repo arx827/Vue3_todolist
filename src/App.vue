@@ -304,7 +304,7 @@ export default {
   border: 0;
   background: darken($COLOR-MAIN2, 5);
   color: #fff;
-  opacity: 90%;
+  opacity: 0.9;
   font-size: 14px;
   border-radius: 5px;
   padding: 5px 10px;
@@ -325,7 +325,7 @@ export default {
 .eslist-show__btn-delete {
   background: lighten($COLOR-MAIN3, 35);
   box-shadow: 0 2px 4px darken($COLOR-MAIN3, 10);
-  opacity: 50%;
+  opacity: 0.5;
   &:hover {
     background: lighten($COLOR-MAIN3, 10);
   }

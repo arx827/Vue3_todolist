@@ -10,6 +10,8 @@ cd dist/github
 git init
 git add -A
 git commit -m 'deploy'
-# 部署到 https://github.com/arx827/vue_animate_movie.git 分支為 gh-pages
-git push -f https://github.com/arx827/vue_animate_movie.git master:gh-pages
+# 部署到 https://github.com/arx827/Vue3_todolist.git 分支為 gh-pages
+git push -f https://github.com/arx827/Vue3_todolist.git master:gh-pages
 cd -
+
+# 執行指令 sh deploy.sh
